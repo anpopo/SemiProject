@@ -344,7 +344,7 @@
                    else{
                       $("input:checkbox[name=taste]").removeAttr("disabled");
                    }
-                });
+                });s
                 
                 $("input#Rcode").blur(function () {
                     var Rcode = $(this).val();

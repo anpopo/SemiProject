@@ -13,7 +13,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 @WebServlet(description = "사용자가 웹에서 *.up 을 했을 경우 이 서블릿이 먼저 응답을 해주도록 한다.", urlPatterns = { "*.com" }, initParams = {
-		@WebInitParam(name = "propertyConfig", value = "C:/NCS/workspace(jsp)/Covengers/WebContent/WEB-INF/Command.properties", description = "*.com 에 대한 클래스의 매핑파일") })
+		@WebInitParam(name = "propertyConfig", value = "C:/Users/82102/git/Covengers/WebContent/WEB-INF/Command.properties", description = "*.com 에 대한 클래스의 매핑파일") })
 public class FrontController extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 
